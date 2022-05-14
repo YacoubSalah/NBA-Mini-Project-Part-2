@@ -1,0 +1,70 @@
+body {
+    background-color: aliceblue;
+}
+
+button {
+    margin: 5px;
+    border: none;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px #52585f;
+    background-color: #1d92daa4;
+    font-size: large;
+}
+
+input {
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+#searchBar {
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#dataContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.playerCard {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    justify-self: center;
+    box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
+    background-color: #82afe3;
+    border: solid #52585f;
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.addToDreamTeamButton {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: 2px;
+    padding: 2px;
+    
+    font-size: small;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2.5px;
+    margin: 2px;
+}
+
+.addToDreamTeamButton.inDreamTeam{
+    background-color: #ee0e0e9e;
+}
+
+.addToDreamTeamButton.notInDreamTeam{
+    background-color: #24d4247c;
+}
